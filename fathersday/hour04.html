@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hour 4 — Happy Father's Day</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+  <p class="eyebrow">A Father's Day Game &middot; Hour 4 of 12</p>
+  <h1 class="hour">Hour 4<small>The dessert</small></h1>
+
+  <section class="envelope">
+    <p class="riddle" id="riddle"></p>
+  </section>
+
+  <div class="answer-block" id="answer-block">
+    <div class="field">
+      <input type="text" id="answer" placeholder="Type your answer…" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <button id="submit">Open it</button>
+    </div>
+    <div class="feedback" id="feedback"></div>
+    <div class="tries" id="tries"></div>
+  </div>
+
+  <div class="reveal" id="reveal">
+    <div class="solved-badge" id="badge"></div>
+    <p class="answer-was" id="answer-was" style="display:none"></p>
+    <p class="note" id="note"></p>
+  </div>
+
+  <div class="board-card">
+    <p class="board-title">Our picture, one piece at a time</p>
+    <div class="board" id="board"></div>
+    <p class="board-count" id="board-count"></p>
+  </div>
+
+  <p class="foot">Wait for the next email to keep going. <a href="hour05.html">Already have the next one?</a></p>
+</main>
+
+<script src="data.js"></script>
+<script src="game.js"></script>
+<script>
+  const R = RIDDLES.find(r => r.id === 4);
+  document.getElementById("riddle").textContent = R.prompt;
+  initRiddle(R);
+  renderBoard();
+</script>
+</body>
+</html>

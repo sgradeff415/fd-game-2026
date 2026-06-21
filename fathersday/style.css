@@ -5,9 +5,9 @@
   --ink-soft:#4d5a6b;
   --seal:#2499ff;
   --seal-deep:#2499ff;
-  --gold:#2499ff;
-  --line:#848792;
-  --green:#4a586b;
+  --gold:#3ade45;
+  --line:#3d3d3d;
+  --green:#4b4b4b;
   --shadow:rgba(51, 52, 53, 0.18);
   --display:"Cormorant Garamond",Georgia,serif;
   --body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
@@ -64,7 +64,7 @@ body{
 .envelope{
   position:relative;
   margin:26px 0;
-  background:linear-gradient(180deg,#95c9cd,#9bc4c8);
+  background:linear-gradient(180deg,#f2f3f3,#d2e8ea);
   border:1px solid var(--line);
   border-radius:14px;
   padding:30px 26px;
@@ -180,7 +180,7 @@ button:disabled{background:#9698c3;cursor:default}
 /* ---- puzzle board ---- */
 .board-card{
   margin-top:30px;
-  background:#e0f4dd;
+  background:#baf2f5;
   border:1px solid var(--line);
   border-radius:14px;
   padding:20px;
@@ -204,7 +204,7 @@ button:disabled{background:#9698c3;cursor:default}
 }
 .cell{
   position:relative;
-  background:#c9d9e6;
+  background:#141414;
   border-radius:3px;
   overflow:hidden;
 }

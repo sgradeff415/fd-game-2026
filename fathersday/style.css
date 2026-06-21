@@ -3,12 +3,12 @@
   --paper-deep:#eaf1f2;
   --ink:#2e2f2f;
   --ink-soft:#4d5a6b;
-  --seal:#79b9d1;
-  --seal-deep:#1f5d83;
-  --gold:#4f87b8;
-  --line:#b6bbd0;
+  --seal:#2499ff;
+  --seal-deep:#2499ff;
+  --gold:#2499ff;
+  --line:#848792;
   --green:#4a586b;
-  --shadow:rgba(51, 53, 53, 0.18);
+  --shadow:rgba(51, 52, 53, 0.18);
   --display:"Cormorant Garamond",Georgia,serif;
   --body:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 }
@@ -64,7 +64,7 @@ body{
 .envelope{
   position:relative;
   margin:26px 0;
-  background:linear-gradient(180deg,#7ee7ef,#7ee7ef);
+  background:linear-gradient(180deg,#95c9cd,#9bc4c8);
   border:1px solid var(--line);
   border-radius:14px;
   padding:30px 26px;
@@ -104,7 +104,7 @@ input[type=text]{
 input[type=text]:focus{
   outline:none;
   border-color:var(--gold);
-  box-shadow:0 0 0 3px rgba(184,149,74,.18);
+  box-shadow:0 0 0 3px rgba(29, 29, 28, 0.18);
 }
 button{
   font-family:var(--body);
@@ -114,7 +114,7 @@ button{
   border:none;
   border-radius:9px;
   background:var(--seal);
-  color:#fdf3ef;
+  color:#f1effd;
   cursor:pointer;
   transition:background .15s,transform .05s;
 }
@@ -161,7 +161,7 @@ button:disabled{background:#9698c3;cursor:default}
 .solved-badge.revealed{color:var(--ink-soft)}
 .wax{
   width:26px;height:26px;border-radius:50%;
-  background:radial-gradient(circle at 35% 30%,#269726,var(--seal-deep));
+  background:radial-gradient(circle at 35% 30%,#31b731,var(--seal-deep));
   display:inline-block;box-shadow:0 2px 5px -1px var(--shadow);
 }
 
@@ -198,20 +198,20 @@ button:disabled{background:#9698c3;cursor:default}
   max-width:380px;
   margin:0 auto;
   aspect-ratio:1612/1462;
-  background:#b0d5d8;
+  background:#dfeeef;
   padding:3px;
   border-radius:8px;
 }
 .cell{
   position:relative;
-  background:#9fbace;
+  background:#c9d9e6;
   border-radius:3px;
   overflow:hidden;
 }
 .cell img{width:100%;height:100%;object-fit:cover;display:block}
 .cell.locked::after{
   content:"";position:absolute;inset:0;
-  background:repeating-linear-gradient(45deg,#adcfa3,#a4cfa3 6px,#a2c693 6px,#a7c693 12px);
+  background:repeating-linear-gradient(45deg,#adcfa3,#a4cfa3 6px,#b3cfa6 6px,#abc798 12px);
 }
 .cell.justplaced{animation:pop .5s ease both}
 @keyframes pop{0%{transform:scale(.6);opacity:0}70%{transform:scale(1.05)}100%{transform:scale(1);opacity:1}}

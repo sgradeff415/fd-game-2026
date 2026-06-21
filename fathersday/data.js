@@ -22,8 +22,8 @@ const RIDDLES = [
     prompt: "What were the two words that would wake me up as a kid, no matter if I was sleeping or you said it very quietly?",
     answers: ["ice cream"],
     hints: [
-      "It's a frozen treat. Two words.",
-      "Comes in a cone or a cup. Starts with 'ice'."
+      "It's a frozen.",
+      "Starts with 'ice'."
     ],
     note: "One of my favorite things about you is that you don't take yourself too seriously. You'll play house music way too loud and dance around the house, or somehow make me or Carly laugh when we're pissed off, or bolt off to some Burning Man party or concert with your wife. Your energy is contagious!"
   },
@@ -33,8 +33,8 @@ const RIDDLES = [
     prompt: "The name of my pink soccer team that you coached.",
     answers: ["bubblishous", "bubbalicious", "bubble gum", "bubblicious"],
     hints: [
-      "Think of the bubble gum brand.",
-      "It's chewy, pink, and you blow bubbles with it."
+      "sticky",
+      "chewy"
     ],
     note: "There were plenty of times you pushed me when I didn't want to be pushed. At the time I probably rolled my eyes. Looking back, I'm really glad you did. You helped me become someone who works hard and doesn't quit when things get difficult."
   },
@@ -44,8 +44,8 @@ const RIDDLES = [
     prompt: "What artist (that I remember) did you play the most in the car when we were kids?",
     answers: ["jack johnson"],
     hints: [
-      "Mellow, beachy, acoustic guitar. He's a surfer too.",
-      "First name Jack. Last name is also a common surname."
+      "southlake tahoe concert",
+      "pancakes"
     ],
     note: "You don't make a big deal about the things you do. Your humbleness is admirable. But know that I always recognize all you do."
   },
@@ -55,8 +55,8 @@ const RIDDLES = [
     prompt: "If it's on the menu, what is the dessert that you and I would get?",
     answers: ["tiramisu"],
     hints: [
-      "It's an Italian dessert with coffee and mascarpone.",
-      "Starts with 'tira'."
+      "think coffee.",
+      "think dessert lasagna"
     ],
     note: "One thing I've noticed as I've gotten older is how much you genuinely care about people. Not because you have to, you just do. Family, friends, your little work team, you always want the people around you to do well. That's something I've always admired about you."
   },
@@ -66,8 +66,8 @@ const RIDDLES = [
     prompt: "What hike would neither of us do again?",
     answers: ["freel peak", "freal peak"],
     hints: [
-      "It's the highest peak in the Lake Tahoe area.",
-      "Two words. First word rhymes with 'real'."
+      "knee pain",
+      "tallest peak in tahoe!"
     ],
     note: "I hope I'm still as curious as you when I'm your ripe old age. You're always reading something, building something, talking about AI, thinking of a business idea. You make learning look fun."
   },
@@ -77,8 +77,8 @@ const RIDDLES = [
     prompt: "The song you pinned me against my whole life.",
     answers: ["dont stop believing", "dont stop believin"],
     hints: [
-      "It's by Journey.",
-      "\"Just a small town girl...\" Three words, starts with 'Don't'."
+      "DOOOOONT S..",
+      "journey"
     ],
     note: "I don't always take your advice right away... but somehow you usually end up being right. Thanks for always helping me think things through."
   },
@@ -91,8 +91,8 @@ const RIDDLES = [
       "want to go to the gym", "want to go biking", "lets go to the gym"
     ],
     hints: [
-      "It involves exercise.",
-      "He's trying to get you off the couch and moving."
+      "out of breath",
+      "get rid of the belly"
     ],
     note: "A lot of what I have today started because you and mother worked hard to give me all these opportunities. I don't think I've thanked y'all for that!"
   },
@@ -102,8 +102,8 @@ const RIDDLES = [
     prompt: "One of the things I admire most about you.",
     answers: ["thoughtfulness", "thoughtful"],
     hints: [
-      "It's a quality. It's about how much you consider others.",
-      "The adjective form is 'thoughtful'."
+      "thinking",
+      "thinking with care"
     ],
     note: "Whether it's my job, a random business idea, or whatever project I'm excited about that week, you're always interested. It makes me want to keep sharing things with you."
   },
@@ -113,8 +113,8 @@ const RIDDLES = [
     prompt: "What is the number one spot on our bucket list of places to go?",
     answers: ["brazil", "south america"],
     hints: [
-      "It's a country in South America.",
-      "Largest country there. Famous for Carnival and beaches."
+      "kite surfing",
+      "new years"
     ],
     note: "You're someone I'd choose to spend time with even if you weren't my dad."
   },
@@ -131,8 +131,8 @@ const RIDDLES = [
       "a mi hiha le gusta la musica house"
     ],
     hints: [
-      "Start with \"a mi hija...\" (to my daughter).",
-      "\"...le gusta la m\u00fasica house.\""
+      "no hints hehe",
+      "nope"
     ],
     note: "The older I get, the more I realize that I ended up looking for a lot of your qualities in the people I respect, whether that's in work or in my personal life."
   },
@@ -142,8 +142,8 @@ const RIDDLES = [
     prompt: "Your biggest fan.",
     answers: ["you", "syd", "sydney", "your daughter", "your daughters", "my loving daughter", "my loving daughters"],
     hints: [
-      "Look in the mirror... then think about who wrote this game.",
-      "It's me. My name starts with 'S'."
+      "only your favorite daughter",
+      "The name starts with 'S'."
     ],
     note: "I genuinely have fun talking to you, and I don't think everyone gets to say that about their father."
   },
@@ -153,8 +153,8 @@ const RIDDLES = [
     prompt: "I'm not a therapist, but I hear every work rant.\nI'm not a boss, but I always have a plan.\nI'm not ChatGPT, but I still love talking AI.\nWho am I?",
     answers: ["paul", "me", "father", "dad"],
     hints: [
-      "It's you.",
-      "Your name, or just \"Dad.\""
+      "hmm I wonder who that could be!!",
+      "Its you, \"Dad.\""
     ],
     note: "I love how our \u201cquick calls\u201d are almost never actually quick. Somehow we always end up talking for an hour about work, AI, or whatever random idea one of us is excited about."
   }
